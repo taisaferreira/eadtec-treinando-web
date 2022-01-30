@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="W3.css">
+    <title>Dominuca Calçados</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $("#img1").hide();
+            $("#descricao1").hide();
+            $("#img2").hide();
+            $("#descricao2").hide();
+            $("#img3").hide();
+            $("#descricao3").hide();
+            $("#img4").hide();
+            $("#descricao4").hide();
+            $("#img5").hide();
+            $("#descricao5").hide();
+            $("#img6").hide();
+            $("#descricao6").hide();
+
+            $("#titulo1").click(function () {
+                $("#img1").fadeToggle(1000);
+                $("#descricao1").fadeToggle(1000);
+                $("#img2").fadeToggle(1000);
+                $("#descricao2").fadeToggle(1000);
+                $("#img3").fadeToggle(1000);
+                $("#descricao3").fadeToggle(1000);
+
+                $("#titulo2").click(function () {
+                    $("#img4").fadeToggle(1000);
+                    $("#descricao4").fadeToggle(1000);
+                    $("#img5").fadeToggle(1000);
+                    $("#descricao5").fadeToggle(1000);
+                    $("#img6").fadeToggle(1000);
+                    $("#descricao6").fadeToggle(1000);
+                });
+            });
+        });
+
+
+
+    </script>
+</head>
+
+<body class="w3-center">
+
+    <div class="w3-container w3-wide" style="color:rgb(167,64,5);">
+        <h1>DOMINUCA CALÇADOS</h1>
+    </div>
+    <br>
+
+    <div class="w3-container">
+        <div class="w3-row-padding w3-half w3-margin-center">
+            <div class="w3-container" style=" background-color: rgb(214,114,55); color:white;">
+                <div class="w3-wide" id="titulo1" style="font-size: 30px ;">Sapatos Sociais</div>
+
+
+                <div class="w3-card">
+                    <img id="img1" src="imagens/social1.jpeg" style="width:650px;height: 500px;"
+                        class="w3-opacity w3-hover-opacity-off">
+                    <div id="descricao1" class="w3-container">
+                        <h5>Descrição: Scarpin Amarelo
+                            <p>Preço: R$100,00</p>
+                        </h5>
+                    </div>
+                </div>
+
+
+
+                <div class="w3-card">
+                    <img id="img2" src="imagens/social2.jpeg" style="width:650px;height: 500px;"
+                        class="w3-opacity w3-hover-opacity-off">
+                    <div id="descricao2" class="w3-container">
+                        <h5>Descrição: Sandália Glamour Rosa e Azul
+                            <p>Preço: R$200,00</p>
+                        </h5>
+                    </div>
+                </div>
+
+
+                <div class="w3-card">
+                    <img id="img3" src="imagens/social3.jpeg" style="width:650px;height: 500px;"
+                        class="w3-opacity w3-hover-opacity-off">
+                    <div id="descricao3" class="w3-container">
+                        <h5>Descrição: Anabela Nude Colorida
+                            <p>Preço: R$199,90</p>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-half w3-margin-center">
+            <div class="w3-container" style=" background-color: rgb(214,114,55);color:white;">
+                <div class="w3-wide" id="titulo2" style="font-size: 30px ;">Sapatos Casuais</div>
+
+
+                <div class="w3-card">
+                    <img id="img4" src="imagens/casual1.jpg" style="width:650px;height: 500px;"
+                        class="w3-opacity w3-hover-opacity-off">
+                    <div id="descricao4" class="w3-container">
+                        <h5>Descrição: Sapato Casual Rosa Verão
+                            <p>Preço: R$159,90</p>
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="w3-card">
+                    <img id="img5" src="imagens/casual2.jpg" style="width:650px;height: 500px;"
+                        class="w3-opacity w3-hover-opacity-off">
+                    <div id="descricao5" class="w3-container">
+                        <h5>Descrição: Sapato Casual All Star tradicional
+                            <p>Preço: R$209,90</p>
+                        </h5>
+                    </div>
+                </div>
+
+
+                <div class="w3-card">
+                    <img id="img6" src="imagens/casual3.jpg" style="width:650px;height: 500px;"
+                        class="w3-opacity w3-hover-opacity-off">
+                    <div id="descricao6" class="w3-container">
+                        <h5>Descrição: Sapato Casual All Star Branco
+                            <p>Preço: R$249,90</p>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h5>Fonte das imagens:
+        <a href="https://br.freepik.com/">br.freepik.com/</a>
+    </h5>
+
+
+</body>
+
+</html>
